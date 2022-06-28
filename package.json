@@ -1,0 +1,23 @@
+{
+  "name": "cv-facil",
+  "version": "1.0.0",
+  "description": "web para crear cv online",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonesjs94/cv-facil.git"
+  },
+  "author": "Jonathan Guerreiro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonesjs94/cv-facil/issues"
+  },
+  "homepage": "https://github.com/jonesjs94/cv-facil#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "webpack": "^5.73.0"
+  }
+}
