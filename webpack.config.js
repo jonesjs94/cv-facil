@@ -18,12 +18,20 @@ module.exports = {
                 use: {
                     loader: 'babel-loader'
                 }
-            }
+            },
+            
         ]
+    },
+    resolve: {
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
+        alias: {
+            '@': path.resolve(__dirname, 'src'),
+            '@views': path.resolve(__dirname, 'src/views'),
+            '@components': path.resolve(__dirname, 'src/components')
+        }
     },
     plugins: [
         new HtmlWebpackPlugin({
-            title: 'Easy Resume',
             template: 'src/assets/html/template.html'
         })
     ],

@@ -1,8 +1,9 @@
 import React from 'react';
+import CurriculumForm from '@views/CurriculumForm.jsx';
 
 function App(props) {
     return (
-        <h1>Hello world!</h1>
+        <CurriculumForm />
     );
 };
 
